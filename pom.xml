@@ -10,13 +10,13 @@
 	<description>Dataspace protocol implementation of the TRUE Connector</description>
 
 	<properties>
-		<revision>0.5.0-2</revision>
+		<revision>0.5.0-3</revision>
 		<java.version>17</java.version>
 		<build.sourceEncoding>UTF-8</build.sourceEncoding>
 		<maven.compiler.release>${java.version}</maven.compiler.release>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jacoco.version>0.8.10</jacoco.version>
-		<aws.sdk.version>2.31.16</aws.sdk.version>
+		<aws.sdk.version>2.31.78</aws.sdk.version>
 		<timestamp>${maven.build.timestamp}</timestamp>
 		<maven.build.timestamp.format>dd-MM-yyyy</maven.build.timestamp.format>
 	</properties>
@@ -34,14 +34,14 @@
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-parent</artifactId>
-				<version>3.5.12</version>
+				<version>3.5.14</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-test</artifactId>
-				<version>3.5.12</version>
+				<version>3.5.14</version>
 				<scope>test</scope>
 				<exclusions>
 					<exclusion>
@@ -126,7 +126,7 @@
 				<plugin>
 					<groupId>org.springframework.boot</groupId>
 					<artifactId>spring-boot-maven-plugin</artifactId>
-					<version>3.5.12</version>
+					<version>3.5.14</version>
 				</plugin>
 				<plugin>
 					<groupId>org.eclipse.m2e</groupId>
